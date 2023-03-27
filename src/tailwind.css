@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply text-white text-2xl block p-5 hover:text-red-500 transition duration-500
+}
+
+.treecards {
+    @apply border-2 h-96 w-80 mx-auto rounded-xl bg-white my-6
+}
+
+.title-card {
+    @apply text-5xl text-center font-extrabold pt-5 text-red-600
+}
+
+.buttom {
+    @apply border rounded-lg px-16 align-bottom mx-8 mt-6 font-semibold py-1 text-white text-2xl bg-red-500 hover:bg-red-700 transition duration-500
+}
