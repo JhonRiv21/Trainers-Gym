@@ -1,5 +1,5 @@
 module.export = {
-	purge: [
+	content: [
 	'./public/**/*.html',
 	],
 	darkMode: false,  // or 'media' or 'class'
